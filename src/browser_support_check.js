@@ -1,0 +1,1 @@
+window.onload=function(){"querySelector"in document&&"localStorage"in window&&"addEventListener"in window&&!(window.navigator.userAgent.indexOf("MSIE ")>0)||(window.location.href="unsupported_browser.html")};
