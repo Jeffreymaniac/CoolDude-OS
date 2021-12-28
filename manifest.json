@@ -5,7 +5,7 @@
     "scope": "https://jeffreymaniac.github.io/CoolDude-OS",
     "start_url": "https://jeffreymaniac.github.io/CoolDude-OS",
     "name": "CoolDude OS",
-    "short_name": "CoolD-OS",
+    "short_name": "CoolDude-OS",
     "description": "CoolDude OS is a fun project I made that mimics an operating system.",
     "icons": [
         {
