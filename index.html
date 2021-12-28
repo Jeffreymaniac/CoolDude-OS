@@ -3,13 +3,20 @@
   <head>
     <link rel="stylesheet" src="styles.css">
     <link rel="manifest" src="manifest.json">
-    <link rel="" src="">
     <script src="src/browser_support_check.js" async></script>
     <title>CoolDude OS</title>
     
   </head>
-  <body>
+  <body id='body'>
     
-    <script src="scripts.js"></script>
+    <script>
+      var bodyhtml = document.getElementById('body');
+   bodyhtml.innerHTML = '<h1>CoolDude OS</h1><p>Please select some settings to customize this operating system.</p';
+
+function setBgImg(url) {
+bodyhtml.style.backgroundImage="url(" + "'" + url + "'" + ")"
+  
+}
+    </script>
   </body>
 </html>
