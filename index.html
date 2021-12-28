@@ -9,7 +9,7 @@
       * {
       font-family:Noto Sans, sans-serif;
       }
-      .book {
+      #book {
         margin:2px;
       }
     </style>
@@ -23,9 +23,9 @@
     
     <script>
       var bodyhtml = document.getElementById('body');
-   bodyhtml.innerHTML = '<h1>CoolDude OS</h1><p>Please select some settings to customize this operating system.</p';
+   bodyhtml.innerHTML = '<div id="book"><h1>CoolDude OS</h1><p>Please select some settings to customize this operating system.</p></div>';
 
-function setBgImg(url) {
+function setBgImgUrl(url) {
 bodyhtml.style.backgroundImage="url(" + "'" + url + "'" + ")"
   
 }
