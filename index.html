@@ -23,7 +23,8 @@
     
     <script>
       var bodyhtml = document.getElementById('body');
-   bodyhtml.innerHTML = '<div id="book"><h1>CoolDude OS</h1><p>Please select some settings to customize this operating system.</p></div>';
+      var settingsHTMLcode = '<details><summary>Background Image</summary><p>Set background image url:</p></details> <p></p>';
+   bodyhtml.innerHTML = '<div id="book"><h1>CoolDude OS</h1><p>Please select some settings to customize this operating system.</p></div><br><hr>' + settingsHTMLcode;
 
 function setBgImgUrl(url) {
 bodyhtml.style.backgroundImage="url(" + "'" + url + "'" + ")"
