@@ -23,7 +23,7 @@
     
     <script>
       var bodyhtml = document.getElementById('body');
-      var settingsHTMLcode = '<details><summary>Background Image</summary><p>Set background image: <br><textarea id="imgpicker"></textarea><button onclick="setBgImg(document.getElementById("imgurl").value)">Submit</button> </p></details> <p></p>';
+      var settingsHTMLcode = '<details><summary>Background Image</summary><p>Set background image: <br><textarea id="imgpicker"></textarea><button onclick="setBgImg(document.getElementById("imgpicker").value)">Submit</button> </p></details> <p></p>';
    bodyhtml.innerHTML = '<div id="book"><h1>CoolDude OS</h1><p>Please select some settings to customize this operating system.</p></div><br><hr>' + settingsHTMLcode;
 
 function setBgImg(img) {
