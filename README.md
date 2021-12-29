@@ -6,10 +6,13 @@ Once I learn other programming languages for building applications, not websites
 ## Web operating system
 Play it at https://jeffreymaniac.github.io/CoolDude-OS.
 
-The web technolgies used are:
+The web technolgies used to make this are:
 * HTML
 * CSS
-* JS
+* JavaScript
+* JSON
 
-It is all in one page, so you won't have to go to other pages. Your data is saved in local browser storage, so if you don't want your data lost, then don't clear your cache for this site in particular.
+It is all in one page, so you won't have to go to other pages (except for the unsupported browser page if you have Internet Explorer).
+
+Your data is saved in local browser storage, so if you don't want your data lost, then don't clear your cache for this site in particular.
 
